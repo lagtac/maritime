@@ -61,7 +61,7 @@ On time charter the owner warrants speed and consumption. These tools compare no
 | [OrbitMI](https://www.marinelink.com/amp/news/maritime/maritime-software) | USA | Bought Gale Force (voyage optimisation, compliance advisory). |
 | DTN weather routing | Sold to ABB in June 2024 | Per a market report ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/marine-management-software-market)); not confirmed from a primary source. |
 
-Not checked for this doc: Weathernews, Kongsberg (Vessel Insight), Wärtsilä, Bearing AI.
+Weathernews, Kongsberg (Vessel Insight), Wärtsilä, Bearing AI and others were checked on 2026-09-28 for item 2. See the Competitors table in `topics/02-vessel-performance/brief.md`.
 
 ## 4. Light commercial, port cost and market data
 

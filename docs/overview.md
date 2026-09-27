@@ -7,7 +7,7 @@ So if you want to build for Greek shipping, the standards that matter are BIMCO 
 ## What Greek tramp owners actually need (and pay for)
 
 1. Emissions compliance. EU ETS for shipping (phased in from 2024), FuelEU Maritime (2025), CII/EEXI ratings, IMO net-zero framework. Every ship needs a running ledger of fuel, voyage, carbon allowances, and who pays (owner vs. charterer under the charter party). This is spreadsheet hell in most offices right now. Mid-size fleets (10–40 ships) are the sweet spot; the big ones already bought something.
-2. Vessel performance and noon reports. Sensor data, fuel consumption, hull fouling, speed optimization. Crowded (DeepSea, Metis, Signal), but crowded with premium products.
+2. Vessel performance and noon reports. Sensor data, fuel consumption, hull fouling, speed optimization. Crowded (DeepSea, Metis, LAROS and others), but crowded with premium products. An earlier version listed Signal here; Signal Ocean sells chartering and market data, not performance monitoring (see `topics/02-vessel-performance/brief.md`).
 3. Chartering workflow: fixture recaps, laytime/demurrage calculation, voyage estimation, claims. Still email + Excel in a lot of offices.
 4. Port costs. Disbursement accounts, agent invoices. Harbor Lab is the proof: it raised €14.7M in a Series A led by Atomico by attacking a costly, document-heavy process with international customers.
 5. Crew management, payroll, certificates, training records, port-state-control prep.

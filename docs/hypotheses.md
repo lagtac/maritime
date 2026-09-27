@@ -2,7 +2,7 @@
 
 Every claim in the notes that could change which niche to pursue. Each hypothesis has its own section, which says where the claim came from, how strong the evidence is, and how to test it.
 
-Last updated: 2026-09-27
+Last updated: 2026-09-28
 
 ## How to use this log
 
@@ -10,7 +10,7 @@ Last updated: 2026-09-27
 - Never delete a section. Change its status and add the evidence: an `- **Evidence:**` bullet, with one nested, dated bullet per finding that names its source and level.
 - For an overview table, run `md-collapse-sections.py docs/hypotheses.md --key ID --fields Level,Status --body Claim --first-sentence`. It prints the table and does not change the file.
 - Source paths are relative to `docs/`.
-- IDs use the overview item: `X` = applies to all items, `E` = item 1 (emissions), `C` = item 3 (chartering). New items get new letters.
+- IDs use the overview item: `X` = applies to all items, `E` = item 1 (emissions), `P` = item 2 (vessel performance), `C` = item 3 (chartering). New items get new letters.
 
 ### Status
 
@@ -191,6 +191,90 @@ Fuel consumption from noon reports is the weakest data in the whole chain. Error
 - **Level:** C
 - **Status:** untested
 - **How to test:** Ask a verifier where submissions fail most often. Also relevant to item 2.
+
+## Item 2: Vessel performance and noon reports
+
+### P1
+
+Greek owners face performance claims often enough, and for enough money, that they would pay for help defending them. A performance claim is a charterer's deduction from hire when the ship was slower or burned more fuel than the time charter warrants.
+
+- **Source:** `topics/02-vessel-performance/brief.md`
+- **Level:** E
+- **Status:** untested
+- **How to test:** Ask 3 or more Greek operations managers how many performance claims they received last year, what they were worth, and how much they settled for.
+- **Evidence:**
+  - 2026-09-28, P&I clubs (C): Steamship Mutual and West P&I call performance claims common, often raised in final-hire disputes at the end of a charter. Neither gives a count or an average size. [Steamship Mutual, Speed and Performance FAQs](https://www.steamshipmutual.com/publications/articles/speed-and-performance-faqs), [West P&I defence guide](https://www.westpandi.com/getattachment/72c4277d-d592-47d5-bb3a-a68da7215f9a/defence-guide_speed_consumption_4pp_v2_lr.pdf)
+  - 2026-09-28, published awards (C): single claims seen range from about USD 12,000 to about USD 450,000. London Arbitration 5/26 set off USD 155,745. [Tank Voyager, London Arbitration 5/26](https://www.tankvoyager.com/london-arbitration-5-26/)
+  - 2026-09-28, not checked (E): a search summary says Britannia settles about 95% of its defence notifications within the first USD 7,500 of costs. If true, most claims are small.
+  - 2026-09-28, link to X5 (B, via X5): Greek owners mostly hire their ships out on time charter, so they are the party that warrants speed and consumption.
+
+### P2
+
+Performance claims are won or lost on the quality of the ship's records: deck logs, noon reports, currents and which days count as good weather. A tool that builds the owner's defence file from those records would change outcomes.
+
+- **Source:** [West P&I defence guide](https://www.westpandi.com/getattachment/72c4277d-d592-47d5-bb3a-a68da7215f9a/defence-guide_speed_consumption_4pp_v2_lr.pdf)
+- **Level:** C
+- **Status:** untested
+- **How to test:** Ask an FD&D claims handler or a Piraeus shipping lawyer why owners lose performance claims, and whether better records would have changed the result.
+- **Evidence:**
+  - 2026-09-28, P&I club (C): tribunals usually prefer the deck logs to weather-routing data, and charterers attack logs that contradict themselves or other records. [West P&I defence guide](https://www.westpandi.com/getattachment/72c4277d-d592-47d5-bb3a-a68da7215f9a/defence-guide_speed_consumption_4pp_v2_lr.pdf)
+  - 2026-09-28, arbitration summaries (C): in London Arbitration 7/25 the master's logs beat the routing reconstruction ([Lester Aldridge](https://www.lesteraldridge.com/blog/marine/vessel-under-performance-claim-in-time-charters-a-closer-look-at-london-arbitration-7-25/)). In London Arbitration 5/26 the owners lost after producing no deck logs ([Tank Voyager](https://www.tankvoyager.com/london-arbitration-5-26/)). In London Arbitration 4/26 the charterers lost because their routing report ignored the charter's current rule ([EGA Legal](https://www.egalegal.com/case-summaries/london-arbitration-4/26)).
+
+### P3
+
+Owner-side defence of performance claims is thinly served by software. Owners rely on their FD&D club, weather-routing firms and a few consultants.
+
+- **Source:** `topics/02-vessel-performance/brief.md`
+- **Level:** E
+- **Status:** untested
+- **How to test:** Ask Greek operations managers who they call when a performance claim arrives, and what it costs.
+- **Evidence:**
+  - 2026-09-28, company sites (D): Speed Claim (Istanbul) defends owners for 15% of the reduction it achieves, the only published price found ([speedclaim.net](https://speedclaim.net/)). Oceanroute (Voula, Greece) offers neutral assessments for both sides ([oceanroute.com](https://www.oceanroute.com/weather_news/speed-and-performance-claims/)). Weathernews OPA serves owners and charterers. No software product aimed only at owner-side defence was found.
+
+### P4
+
+Performance monitoring for mid-size and large Greek fleets is already sold by several vendors, so a general monitoring platform is not an opening.
+
+- **Source:** `overview.md`, `reference/greek-software-vendors.md`
+- **Level:** E
+- **Status:** untested
+- **How to test:** Ask 5 Greek owners of different sizes which performance tool they use, if any.
+- **Evidence:**
+  - 2026-09-28, press releases and company sites (D): TMS Group chose Ascenz Marorka for its whole fleet of 130+ ships ([GTT, April 2025](https://www.gtt.fr/news/ascenz-marorka-gtts-smart-shipping-arm-equip-tms-groups-entire-fleet-its-smart-shipping)). Laskaridis uses Metis and LAROS, Pantheon Tankers uses LAROS, and Seanergy used DeepSea. Weathernews, ZeroNorth, Kongsberg and OrbitMI have Greek offices. No small Greek owner was named as a customer of any vendor. No vendor publishes a price.
+
+### P5
+
+Digital noon-report capture is crowded and is not a product on its own.
+
+- **Source:** `topics/02-vessel-performance/brief.md`
+- **Level:** E
+- **Status:** untested
+- **How to test:** Ask small owners how their ships send noon reports today, and whether they pay for it.
+- **Evidence:**
+  - 2026-09-28, company sites (D): Veson, ZeroNorth, VesselReport, Gelectric, Marine Digital, Dataloy and MariApps sell noon-report forms or parsers, and Danaos advertises an AI parser. Neptune Zero (Greek) sells automatic noon reports from sensors and claims 150+ ships ([e-nautilia.gr](https://e-nautilia.gr/i-neptune-zero-sti-lista-thetius-top-150-gia-to-2026/)). No named Greek user of a standalone capture tool was found.
+
+### P6
+
+Most ships still send one manual noon report a day, and those reports are too noisy to settle a claim on their own. Related to E9, which makes the same point for emissions data.
+
+- **Source:** [Danelec report via Safety4Sea](https://safety4sea.com/danelec-over-70-of-ships-still-rely-on-once-daily-noon-reports/)
+- **Level:** D
+- **Status:** untested
+- **How to test:** Ask Greek technical managers what share of their fleet has automatic data collection.
+- **Evidence:**
+  - 2026-09-28, vendor-backed report (D): "more than 70% of vessels" still rely on once-a-day noon reports, per a Danelec report with no method given ([Safety4Sea](https://safety4sea.com/danelec-over-70-of-ships-still-rely-on-once-daily-noon-reports/)).
+  - 2026-09-28, academic study from 2013 (C): noon-report fuel figures had standard errors of 1–8% for tankers, about the size of the 5% "about" allowance ([Aldous et al., UCL](https://discovery.ucl.ac.uk/1413453/1/Aldous%20et%20al..pdf)).
+
+### P7
+
+Inside a Greek owner or manager, the buyer for this is the operations manager or a marine or performance superintendent.
+
+- **Source:** `topics/02-vessel-performance/brief.md`
+- **Level:** E
+- **Status:** untested
+- **How to test:** Ask who handled the last performance claim, and who approved the spending on it.
+- **Evidence:**
+  - 2026-09-28, not found: no Greek source says who defends performance claims. Greek job ads for a "Performance & Environmental Engineer" hint at a role that joins performance and emissions data (E).
 
 ## Item 3: Chartering workflow
 

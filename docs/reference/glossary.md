@@ -272,6 +272,7 @@ Terms and acronyms from tramp shipping, chartering, operations, emissions compli
 
 | Term | Meaning |
 |---|---|
+| **"About" (speed and consumption)** | Word in a time charter that allows a margin on the warranted figures. Commonly taken as 0.5 knot on speed and 5% on consumption, per [West P&I](https://www.westpandi.com/getattachment/72c4277d-d592-47d5-bb3a-a68da7215f9a/defence-guide_speed_consumption_4pp_v2_lr.pdf). |
 | **AIS** | Automatic Identification System: transponder broadcasting ship position, speed, identity. Source for tracking platforms. |
 | **Arrival / departure report** | Messages sent by ship on arrival/departure with times and fuel figures. |
 | **Ballast water management (BWM)** | IMO convention: ships must treat ballast water to stop spreading marine organisms. Treatment systems (BWTS) required. |
@@ -281,11 +282,14 @@ Terms and acronyms from tramp shipping, chartering, operations, emissions compli
 | **COSP / EOSP** | Commencement / End Of Sea Passage: timestamps that split sea time from port time. Key for speed, consumption and emissions calculations. |
 | **CP speed and consumption** | Speed and fuel use warranted in a time charter. Performance claims arise if the ship underperforms. |
 | **Crew change** | Replacing crew in port. Often causes deviation or delay. |
+| **Deck log** | The ship's official logbook of navigation, weather and events. Arbitrators usually prefer it to weather-routing data in performance claims. |
 | **Deviation** | Leaving the agreed route. May breach the CP and void insurance unless allowed (e.g. to save life, for bunkers if permitted). |
+| **Douglas sea state** | Scale 0–9 for wave height. NYPE 2015 defines good weather as up to Beaufort 4 and Douglas sea state 3. |
 | **Drydock / special survey** | Periodic dry-docking for hull work and class renewal (roughly every 2.5–5 years). Ship is off-hire. |
 | **ETA / ETB / ETD / ETC** | Estimated Time of Arrival / Berthing / Departure / Completion. |
 | **ETA notices** | Notices the master must send before arrival (e.g. 7/5/3/2/1 days), as required by the CP. |
 | **Good weather** | Conditions (e.g. up to Beaufort 4) used to judge speed/consumption performance. |
+| **Good weather method** | The usual way arbitrators judge a performance claim: measure speed and consumption on good-weather days only, then apply the result to the whole voyage. |
 | **Heavy weather damage** | Damage to ship or cargo from bad weather. Needs noting in logs and often a note of protest. |
 | **Hold cleaning / hold inspection** | Bulker holds must pass a surveyor's inspection (e.g. "grain clean") before loading. Failure delays laytime. |
 | **Hull fouling** | Marine growth on the hull that slows the ship and raises consumption. |
@@ -309,6 +313,7 @@ Terms and acronyms from tramp shipping, chartering, operations, emissions compli
 | **Vetting (SIRE / RightShip)** | Charterer's ship approval process. SIRE (OCIMF) inspections for tankers; RightShip ratings mainly for dry bulk. |
 | **Voyage instructions** | Operator's orders to the master for a voyage. |
 | **Weather routing** | Service that recommends routes to avoid bad weather. |
+| **Weather-routing report** | A routing company's analysis of a voyage, using weather models rather than the ship's own observations. Charterers often base performance claims on it. |
 
 ## 9. Bunkers (fuel)
 
@@ -447,6 +452,7 @@ Terms and acronyms from tramp shipping, chartering, operations, emissions compli
 | **GHG intensity (gCO₂e/MJ)** | FuelEU metric. Reference 91.16; target 2% lower for 2025–2029, then stepping down to −80% by 2050. |
 | **IMO GHG Strategy (2023)** | IMO goal: net-zero around 2050, with checkpoints of 20–30% cut by 2030 and 70–80% by 2040 (vs 2008). |
 | **IMO Net-Zero Framework (NZF)** | Proposed global IMO fuel standard and GHG pricing mechanism. Adoption delayed. |
+| **ISO 19030** | International standard for measuring changes in hull and propeller performance over time. |
 | **MARPOL** | IMO convention on ship pollution. Annex VI covers air emissions. |
 | **MARPOL Annex VI** | IMO rules on air pollution from ships: sulphur cap, NOx tiers, ECAs, EEXI, CII, DCS. |
 | **Methane slip** | Unburned methane from LNG engines. Counted in FuelEU and in EU ETS from 2026. |

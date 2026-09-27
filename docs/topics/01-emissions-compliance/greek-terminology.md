@@ -2,7 +2,7 @@
 
 Here is the core Greek terminology for these four areas, plus the documents where the official Greek wording lives.
 
-**Status check (Sept 2026):** EU ETS and FuelEU are in force. The IMO Net-Zero Framework is **not yet adopted**. The October 2025 extraordinary MEPC session adjourned for one year without adopting the measures, and is due to reconvene in October 2026. This pushes the earliest possible entry into force to early 2028. Because it is not adopted, there is no official Greek text for NZF yet. The Greek terms for it below are working translations.
+**Status check (Sept 2026):** EU ETS and FuelEU are in force. The IMO Net-Zero Framework is **not yet adopted**. The October 2025 extraordinary MEPC session adjourned for one year without adopting the measures, and is due to reconvene on 4 December 2026 ([DNV](https://www.dnv.com/news/2026/imo-mepc-84-revisiting-the-net-zero-framework/)). This pushes the earliest possible entry into force to early 2028. Because it is not adopted, there is no official Greek text for NZF yet. The Greek terms for it below are working translations.
 
 ## 1. EU ETS for shipping (ΣΕΔΕ ΕΕ στη ναυτιλία)
 

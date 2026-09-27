@@ -146,4 +146,4 @@ The aim is to confirm the map and find the mismatch rows that cost the most.
 - [ ] What would make you pay for a tool here, and what do you use today instead?
 - [ ] Is anything in the chain diagram wrong for how you work?
 
-* [ ] For tanker operators: how often are demurrage claims cut for pumping performance, half-demurrage events or missing documents?
+- [ ] For tanker operators: how often are demurrage claims cut for pumping performance, half-demurrage events or missing documents?

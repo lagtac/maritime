@@ -81,7 +81,7 @@ Not checked for this doc: Dataloy, Clarksons, VesselsValue, distance-table vendo
 
 This section is analysis, not sourced fact. All four categories run on the same raw data: noon, arrival and departure reports, bunker delivery notes, fuel on board and cargo figures. The ship sends it once; the office often retypes it into several systems.
 
-**Pain points**
+### Pain points
 
 - The same report goes into the fleet system, the emissions platform and the charterer's portal.
 - Reports arrive as Excel attachments or free-text emails. OVD (Operational Vessel Data) is the standard format DNV's platform ingests ([DNV](https://www.dnv.com/services/emissions-connect/)), but many offices don't produce it natively.
@@ -89,7 +89,7 @@ This section is analysis, not sourced fact. All four categories run on the same 
 - Master data doesn't match: vessel names vs IMO numbers, port names vs UN/LOCODE, fuel grade names.
 - ETS cost pass-through to charterers is often done in spreadsheets.
 
-**Opportunities, and who is already there**
+### Opportunities, and who is already there
 
 - Parsing emailed reports into clean records. Incumbents are moving in: Danaos now advertises an AI agent that turns unstructured PDFs and free-text reports into system records ([danaos.gr](https://danaos.gr/)).
 - Sync layers between fleet system, emissions platform and verifier (OVD in, verified data out).

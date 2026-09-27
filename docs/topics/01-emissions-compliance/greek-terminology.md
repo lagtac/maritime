@@ -78,6 +78,7 @@ The polluter-pays principle is applied in Greek as «ο ρυπαίνων πλη�
 ## Key documents (official Greek versions exist)
 
 **EU** (all on EUR-Lex. Switch the language to EL, or use the multilingual view to see EN and EL side by side):
+
 - **Οδηγία (ΕΕ) 2023/959**: brings shipping into the ETS.
 - **Κανονισμός (ΕΕ) 2023/957**: amends MRV Regulation 2015/757.
 - **Κανονισμός (ΕΕ) 2023/1805**: FuelEU Maritime.
@@ -85,7 +86,8 @@ The polluter-pays principle is applied in Greek as «ο ρυπαίνων πλη�
 A Panteion thesis also covers these together with Regulation 2023/1804 on alternative fuels infrastructure and the Energy Taxation Directive revision.
 
 **Greece (national):**
-- The competent ministry is **ΥΠΕΝ (Υπουργείο Περιβάλλοντος και Ενέργειας)**. Its "Ναυτιλιακές Εταιρείες" page is the main Greek source. It includes a presentation of the ΚΥΑ transposing the ETS for shipping, an MRV–ETS overview, material on the Union Registry for shipping, and guidance to shipping companies for 2025. Link: https://ypen.gov.gr/perivallon/systima-eborias-dikaiomaton-ekpobon/naftiliakes-etaireies/
+
+- The competent ministry is **ΥΠΕΝ (Υπουργείο Περιβάλλοντος και Ενέργειας)**. Its "Ναυτιλιακές Εταιρείες" page is the main Greek source. It includes a presentation of the ΚΥΑ transposing the ETS for shipping, an MRV–ETS overview, material on the Union Registry for shipping, and guidance to shipping companies for 2025. Link: <https://ypen.gov.gr/perivallon/systima-eborias-dikaiomaton-ekpobon/naftiliakes-etaireies/>
 - Academic Greek texts on 2003/87/ΕΚ → 2023/959 are useful for legal terminology. Examples are the ΕΚΠΑ maritime law thesis on pergamos.lib.uoa.gr and the Panteion thesis above.
 
 **IMO:** there are no official Greek texts. Greek translations of MARPOL amendments are published in ΦΕΚ when Greece ratifies them. The English sources are MEPC.328(76) (EEXI/CII) and MEPC.377(80) (2023 GHG Strategy).

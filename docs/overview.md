@@ -4,7 +4,7 @@ Greece controls the largest fleet in the world (~20% of global tonnage, ~60% of 
 
 So if you want to build for Greek shipping, the standards that matter are BIMCO (charter parties, eBL for bulk), IMO/EU emissions rules, and class societies, not DCSA. The DCSA opportunities I listed are real, but their customers are forwarders and liners in Rotterdam, Hamburg, Singapore, not Piraeus.
 
-**What Greek tramp owners actually need (and pay for)**
+## What Greek tramp owners actually need (and pay for)
 
 1. Emissions compliance. EU ETS for shipping (phased in from 2024), FuelEU Maritime (2025), CII/EEXI ratings, IMO net-zero framework. Every ship needs a running ledger of fuel, voyage, carbon allowances, and who pays (owner vs. charterer under the charter party). This is spreadsheet hell in most offices right now. Mid-size fleets (10–40 ships) are the sweet spot; the big ones already bought something.
 2. Vessel performance and noon reports. Sensor data, fuel consumption, hull fouling, speed optimization. Crowded (DeepSea, Metis, Signal), but crowded with premium products.
@@ -14,7 +14,7 @@ So if you want to build for Greek shipping, the standards that matter are BIMCO 
 6. Procurement and spare parts, and the whole technical-management stack (planned maintenance, dry-dock planning).
 7. Cybersecurity and connectivity (IMO cyber rules, Starlink on ships changed everything: ships now have real bandwidth, which opens up shipboard SaaS that was impossible three years ago).
 
-**The ecosystem you'd be entering**
+## The ecosystem you'd be entering
 
 - Signal Ocean is the flagship. It has since acquired AXSMarine, a well-known provider of vessel and cargo tracking tools. Signal also runs a corporate VC arm.
 - DeepSea Technologies was acquired by Nabtesco (Japan). MarineTraffic (Greek-founded) was acquired by Kpler earlier.
@@ -22,15 +22,14 @@ So if you want to build for Greek shipping, the standards that matter are BIMCO 
 - Investors: Signal Ventures (strategic), VentureFriends, Big Pi, plus global maritime funds like Motion Ventures.
 - Posidonia (June, biennial, just happened in 2026) is where you meet every owner in the country in one week.
 
-**How to actually get a customer**
+## How to actually get a customer
 
 Shipping in Greece runs on relationships and family-owned companies. The buyer is usually the technical manager, operations manager, or the owner's son who came back from an MBA. Cold SaaS sales don't work; a warm intro from a ship manager, a broker, or a class society does. Best entry is a design partner: one 10–20 ship owner who lets you build against their real data in exchange for a cheap/free deal.
 
-**What's still open, in my view**
+## What's still open, in my view
 
 - ETS/FuelEU cost allocation and settlement between owner and charterer (a legal-plus-accounting problem, thin competition).
 - "Starlink-native" shipboard tools: things that assume the ship is online (crew welfare, remote inspections, live PMS sync).
 - Small-owner ERP: the 3–8 ship owners that are too small for Danaos/Veson and still run on Excel.
 - Data plumbing: normalizing noon reports, sensor data, and AIS into one clean feed that other vendors can build on. Unsexy, sticky.
 - Ship finance and insurance data rooms: banks and P&I clubs re-key the same vessel data endlessly.
-

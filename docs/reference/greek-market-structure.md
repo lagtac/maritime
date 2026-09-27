@@ -1,10 +1,12 @@
+# Greek maritime market structure and reputation
+
 Greece is the world's biggest shipowning nation, but most of that fleet does not fly the Greek flag. The strength is in ownership and management, which are run from Piraeus and Athens, not in the registry.
 
-**Size**
+## Size
 
 The Union of Greek Shipowners' 2025–2026 report says Greece remains the world's leading shipping nation, with a fleet of nearly 5,800 vessels, accounting for over 19% of total global tonnage, and Greek shipping represents 61% of the EU-controlled merchant fleet. Clarksons puts it a bit lower, at 17% of the world fleet in dwt terms and more than a fifth of all tankers, bulkers and LNG carriers. The Greek-owned fleet is valued at about $200bn, with more than $75bn of newbuilding orders. For the Greek economy, shipping directly and indirectly accounts for 7-8% of the country's GDP and supports approximately 200,000 jobs.
 
-**How the market is structured**
+## How the market is structured
 
 It is almost entirely tramp shipping: bulkers, crude and product tankers, and a growing number of LNG and LPG carriers. Greeks hold a smaller share of container shipping. When they do own container ships, they usually charter them out to liners like MSC or Maersk rather than running liner services themselves.
 
@@ -24,7 +26,7 @@ For finance, Greek banks were big lenders before 2008. After the crisis, funding
 
 For crew, officers were traditionally Greek, while ratings (non-officer crew) are mostly Filipino, Indian, Ukrainian and others. The share of Greek officers has dropped over time.
 
-**What the reputation rests on**
+## What the reputation rests on
 
 On the positive side, several things stand out:
 

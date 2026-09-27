@@ -2,7 +2,8 @@
 
 Terms and acronyms from tramp shipping, chartering, operations, emissions compliance, commodity trading and shipping software. Grouped by topic; alphabetical inside each group.
 
-**Contents**
+## Contents
+
 1. Industry structure and parties
 2. Vessel types and sizes
 3. Vessel particulars and measurements

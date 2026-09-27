@@ -17,6 +17,7 @@ Context: this is item 1 from the Greek tramp-owner list in our earlier chat. Her
 The four regimes pull from the same raw data but compute different things. That's the whole product: one fact table, four calculators, one settlement engine.
 
 **Facts (append-only, event-sourced):**
+
 - Vessel: IMO number, GT, DWT, ship type, CII reference line, which company holds the ETS account (registered owner, or ISM/DoC manager if contractually assigned).
 - Voyage legs: departure/arrival port and time, cargo on board, at-berth periods. Each leg gets a scope tag per regime (EU 100/50/0, UK 100/50/0, at-berth). This is harder than it looks: outermost regions, the anti-evasion transshipment port list, and split voyages.
 - Bunkering: BDN, fuel grade, mass, LCV, supplier, and for bio/e-fuels the Proof of Sustainability. Without the PoS, FuelEU uses fossil default factors.
@@ -24,16 +25,19 @@ The four regimes pull from the same raw data but compute different things. That'
 - Emission factors: versioned tables for CO₂, CH₄, N₂O tank-to-wake (ETS) and well-to-wake (FuelEU). Factors change; you need the version pinned to the reporting year.
 
 **Derived:**
+
 - ETS: emissions per leg per gas → CO₂e × scope share → EUAs owed. UK ETS same shape, different scope and currency.
 - FuelEU: energy used in scope × actual GHG intensity vs target → compliance balance (positive or negative), then pooling/banking/borrowing decisions across the fleet.
 - CII: attained CII from annual fuel and distance → rating trajectory, projected year-end letter.
 - NZF later: same as FuelEU with different factors and targets.
 
 **Allowances and money:**
+
 - EUA holdings in the Maritime Operator Holding Account: purchases (price, date, hedge), transfers received from charterers, surrenders. Same for UK allowances.
 - FuelEU penalty exposure, banked surplus, pool agreements.
 
 **Contracts and allocation (the part with thin competition):**
+
 - Charter party per vessel per period, with clause type and parameters. The industry standard clauses are BIMCO's: ETS Allowances Clause for Time Charter Parties (charterer transfers EUAs or cash, usually monthly), ETSA for voyage charters, the SHIPMAN ETS clause (owner ↔ manager), the FuelEU Maritime Clause for Time Charters (charterer compensates the deficit they cause, gets credit for surplus), and the CII Operations Clause.
 - Allocation engine: every emission event maps to a cost bearer by time window (TC: delivery to redelivery, minus off-hire) or by voyage (VC). Edge cases that break spreadsheets: redelivery mid-leg, off-hire during an EU leg, a sub-charter chain, fuel bunkered by one charterer and burned by the next, biofuel bought by the owner to fix FuelEU while the TC charterer pays ETS.
 - Output: settlement statements per counterparty per month (EUAs due, cash due at agreed price basis, FuelEU credit/debit), and a reconciliation against what the counterparty actually transferred.
@@ -114,4 +118,3 @@ The hard technical parts, in plain terms:
 ## The business angle from the earlier chat
 
 Big fleets have already bought software for this. Small and mid-sized Greek owners (10–40 ships) largely haven't, and the "who pays whom" settlement part is where existing products are weakest. That's the opening. The thing to check before building is whether that's still true in late 2026, and whether your first customer would be an owner (wants to send correct invoices) or a charterer (wants to check the invoices they receive).
-

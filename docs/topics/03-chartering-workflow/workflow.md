@@ -9,6 +9,7 @@ The four pieces you listed happen in this order: **estimate → fixture → voya
 The operator or charterer works out whether a voyage makes money.
 
 **Inputs:**
+
 - **Vessel data:** speed and fuel consumption (laden, ballast, eco speed, port idle and working), deadweight, draft, grain/bale capacity.
 - **Cargo:** quantity, stowage factor, load/discharge rates.
 - **Route:** distances, canal choice (Suez, Panama, or Cape), ECA zones (which need more expensive low-sulphur fuel), and load line zones (which limit draft and therefore how much cargo fits).
@@ -20,6 +21,7 @@ The operator or charterer works out whether a voyage makes money.
 **Why Excel wins here:** it's fast during live negotiation, easy to tweak for "what if", and every desk has its own tweaks. Structured systems like Veson IMOS feel slow for quick scenarios.
 
 **Pain points:**
+
 - Distance tables and bunker prices are copied in by hand.
 - Intake calculations (draft limits, load line zones) are error-prone.
 - The estimate rarely links to the actual voyage result, so there's little estimate-vs-actual learning.
@@ -29,6 +31,7 @@ The operator or charterer works out whether a voyage makes money.
 Negotiation happens over email, chat (ICE, WhatsApp, Teams), and phone. It runs as offer → counter → "firm" → **subjects** (conditions such as board approval, shipper/receiver approval, stem confirmation) → subjects lifted → fixed.
 
 The broker then sends a **fixture recap**, which is the agreed terms in text:
+
 - vessel, cargo, and laycan (the window when the ship must arrive)
 - ports and freight
 - laytime terms (e.g. "10,000 MT per weather working day SHINC, reversible")
@@ -38,6 +41,7 @@ The broker then sends a **fixture recap**, which is the agreed terms in text:
 The formal **charter party (CP)** gets drafted later, sometimes weeks later.
 
 **Pain points:**
+
 - Recaps are free text, and each broker formats them differently.
 - Amendments are written as "Cl. 23 delete, replace with…", so you have to reconstruct the effective clause yourself.
 - The CP drifts from the recap.
@@ -49,6 +53,7 @@ The formal **charter party (CP)** gets drafted later, sometimes weeks later.
 This is the most mechanical, highest-value, and most error-prone step.
 
 **Inputs:**
+
 - **CP laytime terms:**
   - allowed time (fixed hours or a rate per day), and whether it's reversible or averaged between load and discharge
   - SHINC/SHEX/FHEX variants (whether Sundays and holidays count)
@@ -60,12 +65,14 @@ This is the most mechanical, highest-value, and most error-prone step.
 - **Supporting documents:** the NOR, pumping logs (for tankers), and holiday calendars per port.
 
 **Calculation:**
+
 1. Build a timeline.
 2. For each interval, decide whether it counts as laytime, and at what percentage (e.g. shifting counted at 50%, rain excluded).
 3. Sum the time used and compare it with the time allowed.
 4. The result is demurrage (the charterer pays) or despatch (the owner pays).
 
 **Pain points:**
+
 - Retyping SOFs.
 - Interpreting clauses correctly.
 - Port holidays.
@@ -76,12 +83,14 @@ This is the most mechanical, highest-value, and most error-prone step.
 This covers demurrage claims plus off-hire, bunker, performance/speed, and cargo shortage claims.
 
 **Flow:**
+
 1. Build the claim pack (CP extract, NOR, SOF, laytime calculation).
 2. Submit it before the **time bar**, often 60–90 days, with full documents required.
 3. The counterparty reviews and disputes line items.
 4. Back-and-forth, then settlement, often at a discount.
 
 **Pain points:**
+
 - Claims are tracked in Excel across hundreds of voyages.
 - Time bars get missed, which means real money lost.
 - Documents are scattered across email.
@@ -91,6 +100,7 @@ This covers demurrage claims plus off-hire, bunker, performance/speed, and cargo
 ## Existing software
 
 These are from memory; the market has consolidated recently, so verify before relying on it.
+
 - **Veson IMOS:** dominant, enterprise, expensive, heavy.
 - **Dataloy, Shipnet, Softmar, Danaos:** ops/ERP style systems.
 - **Marcura (MarDem and others):** demurrage management, often outsourced as a service.
@@ -101,12 +111,14 @@ Small and mid-size operators, brokers, and many trading houses still run on Outl
 ## Where I'd focus
 
 **Laytime/demurrage plus claims tracking is the best wedge:**
+
 - **Clear ROI.** Every hour miscalculated or time-barred claim is direct dollars, and users can see money recovered.
 - **Bounded problem.** The inputs (CP terms and SOF) and the output (a calculation plus a claim pack) are well defined.
 - **The inputs already arrive by email** as PDFs and text, which suits LLM extraction.
 - **It sits downstream of the recap,** so you naturally expand upstream later: parse recaps into structured terms, then do estimates.
 
 **Architecture principles:**
+
 - **LLMs extract, a deterministic engine calculates.**
   - An LLM turns the SOF and recap/CP clauses into structured events and terms.
   - A human reviews and confirms, with each value linked back to its source line.

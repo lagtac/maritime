@@ -121,6 +121,7 @@ The market splits into four functional layers. A vendor's position on **owner–
 **Benchmarks that change the plan:** (i) if OceanScore or Veson ship a dedicated charterer-audit module, pivot to the disputes/evidence-pack niche where class societies are slower; (ii) if the Dec 2026 NZF vote fails, deprioritise global-ledger work indefinitely; (iii) if EU Q1-2027 adoption confirms "report once," ensure your ledger consumes the merged report natively.
 
 **The 5–8 highest-value Piraeus validation conversations:**
+
 1. **A mid-size tramp owner (5–15 ships)** — "Show me exactly how you compute and invoice EUAs/FuelEU today. What's in Excel? What broke at the April 2026 FuelEU deadline?" *Confirms if:* spreadsheets + pain. *Kills if:* already on OceanScore/DNV and happy.
 2. **A time/voyage charterer or operator** — "When you receive an owner's ETS/FuelEU invoice, how do you check it? Have you ever caught an error?" *Confirms if:* manual/no check + suspected errors. *Kills if:* they trust it or delegate to Veson/DNV.
 3. **A chartering/operations manager at a Greek house that both owns and charters in** — tests the two-sided reconciliation value directly.

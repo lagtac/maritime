@@ -73,7 +73,7 @@ Fill this in the same way for every item, so items can be compared side by side.
 
 ## Hypotheses
 
-IDs from `docs/hypotheses.md` that belong to this item, with their current status.
+IDs from `docs/hypotheses.md` that belong to this item, as links such as `[E5](../../hypotheses.md#e5)`. Do not copy their status here, because the copy would go out of date.
 
 ## Open questions and who to ask
 

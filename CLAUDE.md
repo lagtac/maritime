@@ -28,7 +28,7 @@ Everything else in the notes is a claim to check. Vendor figures (vessel counts,
 | Path | Holds |
 | --- | --- |
 | `overview.md` | The research plan: why Greek shipping is tramp shipping (bulk, tankers, gas), the seven pain areas, and possible niches. |
-| `hypotheses.md` | Every claim that could change the choice of niche, with source, evidence level (A to E) and status. |
+| `hypotheses.md` | Every claim that could change the choice of niche, one section each, with source, evidence level (A to E), status and evidence. |
 | `reference/` | Background that applies to every item. |
 | `topics/NN-<slug>/` | Research on one item from the overview list. `NN` is the item number. |
 | `templates/topic-brief.md` | The template for each item's `brief.md`. |
@@ -62,7 +62,7 @@ When starting an item:
 
 - Create `topics/NN-<slug>/` with lowercase, hyphenated file names.
 - Write `brief.md` from `templates/topic-brief.md`. Keep all its headings, including the scorecard, so items can be compared.
-- Add the item's claims to `hypotheses.md` with a new ID letter. When research confirms or contradicts a claim, update its row. Never delete a row.
+- Add the item's claims to `hypotheses.md` with a new ID letter. Each claim is a section with `- **Field:** value` bullets. When research confirms or contradicts a claim, update its status and add the evidence as its usage notes say. Never delete a section.
 
 Items 1 and 3 do not have a `brief.md` yet.
 

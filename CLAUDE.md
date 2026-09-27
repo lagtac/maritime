@@ -73,7 +73,7 @@ None of these are decided. They are starting points to test, question or drop. `
 - **Emissions software:** Tools that let owners compute carbon allowances and invoice charterers look crowded (OceanScore, DNV, Veson and others). The notes suggest a tool for charterers that checks the invoices they receive (`market-assessment.md`).
 - **Chartering software:** The notes suggest laytime and demurrage calculation plus claims tracking (`workflow.md`).
 - **Selling in Greece:** Greek shipping is family-run and buys through personal relationships. The notes suggest finding one design partner, a 10–20 ship owner who shares real data.
-- **A tension:** both ideas above sell to charterers and operators, but most Greek companies are ship owners, and most operators are based abroad (hypotheses `X5` and `E5`).
+- **A tension:** both ideas above sell mostly to charterers and operators, but most Greek companies are ship owners (`X5`, supported), and few charterers were found in Piraeus (`E5`, weakened). The laytime tool can also sell to Greek owners that fix their own ships on voyage charters. Where operators are based is still open (`X7`).
 - **Modelling ideas**, if a product gets built:
   - An LLM extracts data from documents, a person confirms it, and a fixed rules engine does the calculations (`workflow.md`).
   - Each company is stored once, and its role (owner, charterer, manager) is stored on the contract or the vessel, not as a company type (`players-and-roles.md`).

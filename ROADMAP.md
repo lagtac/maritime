@@ -26,7 +26,7 @@ Fixes and checks on the existing notes.
 
 | # | Task | Status | Where |
 | --- | --- | --- | --- |
-| F1 | **Fix the stale IMO dates** — the lower half of `regulations.md` still says the vote is in October or "next month"; the current date is the 4 December 2026 session. | 📋 | [regulations.md](docs/topics/01-emissions-compliance/regulations.md) |
+| F1 | **Fix the stale IMO and UK ETS dates** — `regulations.md` now gives the 4 December 2026 IMO session and says the UK ETS is live. | ✅ | [regulations.md](docs/topics/01-emissions-compliance/regulations.md) |
 | F2 | **Check the item 3 competitors** — the list in `workflow.md` was written from memory; check each vendor, its Greek customers and its price. | 📋 | [brief](docs/topics/03-chartering-workflow/brief.md) |
 | F3 | **Settle Danaos's size** — `greek-software-vendors.md` says about 700 vessels; a search summary in item 2's brief says 650+ clients and 6,500+ vessels. | 📋 | [greek-software-vendors.md](docs/reference/greek-software-vendors.md) |
 

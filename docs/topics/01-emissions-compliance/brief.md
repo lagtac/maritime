@@ -69,8 +69,6 @@ No vendor was found that sells a standalone tool for a charterer to check the in
 - **IMO Net-Zero Framework:** decision at the 4 December 2026 session; earliest entry into force about March 2028 (C).
 - **BIMCO clauses:** ETS Allowances Clause for time charters, ETSA for voyage charters, the SHIPMAN ETS clause, the FuelEU Maritime Clause for time charters (2024) and the CII Operations Clause 2022 (`regulations.md`, C).
 
-The lower half of `regulations.md` still says the IMO vote is "next month" and in October. Both are out of date; the date above is the current one.
-
 ## Size of the opportunity
 
 This is a guess, not an estimate.

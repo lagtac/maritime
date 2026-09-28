@@ -4,7 +4,7 @@ Context: this is item 1 from the Greek tramp-owner list in our earlier chat. Her
 
 ## Where the four regimes stand (September 2026)
 
-**EU ETS.** Coverage phased in during 2024–2025 and reaches 100% of covered emissions from 1 January 2026, with methane and nitrous oxide added alongside CO₂. The geographic boundary is 100% of intra-EU voyages, 100% at berth in EU ports, and 50% of voyages between an EU and a non-EU port. For the 2025 compliance year, companies must submit verified emissions by 31 March 2026 and surrender allowances covering 70% of their 2025 emissions by 30 September 2026, so every ETS office is mid-surrender right now. Two new things: the United Kingdom intends to introduce its own ETS for shipping from 1 July 2026, and the European Commission's July 2026 EU ETS revision for shipping proposal adds offshore operations to EU ETS, brings more ship categories into the reporting system, consolidates MRV and FuelEU reporting, aligns the responsible entity across regimes. Still a proposal, but it signals the direction: one "shipping company" entity, one reporting pipeline.
+**EU ETS.** Coverage phased in during 2024–2025 and reaches 100% of covered emissions from 1 January 2026, with methane and nitrous oxide added alongside CO₂. The geographic boundary is 100% of intra-EU voyages, 100% at berth in EU ports, and 50% of voyages between an EU and a non-EU port. For the 2025 compliance year, companies must submit verified emissions by 31 March 2026 and surrender allowances covering 70% of their 2025 emissions by 30 September 2026, so every ETS office is mid-surrender right now. Two new things: the United Kingdom has run its own ETS for shipping since 1 July 2026 (see `market-assessment.md` section 5), and the European Commission's July 2026 EU ETS revision for shipping proposal adds offshore operations to EU ETS, brings more ship categories into the reporting system, consolidates MRV and FuelEU reporting, aligns the responsible entity across regimes. Still a proposal, but it signals the direction: one "shipping company" entity, one reporting pipeline.
 
 **FuelEU Maritime.** Caps the well-to-wake greenhouse-gas intensity of the energy a ship uses, for vessels of 5,000 GT and above calling at EU ports. The first cycle just finished: shipowners must submit vessel reports by 31 January 2026 and complete third-party verification by 31 March. Verified compliance must then be logged by 30 April. By 30 June 2026, penalties will be issued where applicable, and FuelEU Documents of Compliance will be provided. Target is −2% vs 2020 baseline now, −6% from 2030, with pooling, banking and borrowing of compliance balances.
 
@@ -56,7 +56,7 @@ The four regimes pull from the same raw data but compute different things. That'
 
 - Whether mid-size Greek owners still run this on Excel or have bought OceanScore/BetterSea/similar in the last 12 months. Both vendors above are marketing the same 2026 changes, so the space is not empty; the owner↔charterer settlement layer is where I'd look for the gap.
 - Which side of the settlement your design partner sits on. An owner mostly wants to invoice charterers correctly; a charterer wants to audit those invoices. Same data, opposite UX.
-- Whether the October IMO vote passes. If it does, "one ledger, four regimes" becomes "one ledger, five", and the pitch gets stronger.
+- Whether the IMO Net-Zero Framework is adopted at the 4 December 2026 session. If it is, "one ledger, four regimes" becomes "one ledger, five", and the pitch gets stronger.
 
 If you want, next step is a concrete schema (tables, the interval-allocation logic, and the scope-classification function with test cases).
 
@@ -91,7 +91,7 @@ This one doesn't tax the amount you burn; it grades *how dirty* the fuel is, on 
 The UN's shipping body (the IMO) gives every ship a yearly grade A–E for fuel efficiency. No fine, but a D or E grade means you must file a fix-it plan, and banks and charterers don't like renting or financing bad-grade ships. The bar rises every year, so a ship that was a C can drift to a D by doing nothing. EEXI is a related one-off technical check, already done.
 
 **4. IMO Net-Zero Framework (the global version, not yet law)**
-The IMO wants a worldwide rule that works like FuelEU: a global limit on fuel dirtiness plus a fee. The US blocked it last October. There's a re-vote next month. If it passes, it starts around 2028. If your software handles FuelEU, it can handle this too, because it's the same kind of calculation.
+The IMO wants a worldwide rule that works like FuelEU: a global limit on fuel dirtiness plus a fee. In October 2025, after strong US opposition, a vote put the decision off for a year. The decision is now due at a session on 4 December 2026. If it passes, it starts around 2028. If your software handles FuelEU, it can handle this too, because it's the same kind of calculation.
 
 ## Why this is a mess in practice
 

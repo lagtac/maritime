@@ -99,7 +99,7 @@ This covers demurrage claims plus off-hire, bunker, performance/speed, and cargo
 
 ## Existing software
 
-These are from memory; the market has consolidated recently, so verify before relying on it.
+These are from memory; the market has consolidated recently, so verify before relying on it. They were checked on 2026-09-28, and several were wrong. The checked list is in the Competitors section of `brief.md` in this folder.
 
 - **Veson IMOS:** dominant, enterprise, expensive, heavy.
 - **Dataloy, Shipnet, Softmar, Danaos:** ops/ERP style systems.

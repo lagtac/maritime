@@ -295,6 +295,10 @@ Laytime and demurrage mistakes, and missed claim deadlines (time bars), cost ope
 - **Level:** E
 - **Status:** untested
 - **How to test:** Ask operators whether they lost a claim to a time bar or missing documents last year.
+- **Evidence:**
+  - 2026-09-28, vendor blogs (D): Marcura puts dry bulk demurrage at $8–10 billion a year and cites one unnamed portfolio that lost $450,000 to time bars in a single year ([Marcura](https://marcura.com/resources/blog/demurrage-claims-leakage)). Veson says IMOS has processed 1.1 million claims worth more than $71 billion over 20 years ([Veson](https://veson.com/products/imos/claims/)).
+  - 2026-09-28, P&I insurer (C): ITIC says demurrage claims "routinely run into tens, and sometimes hundreds, of thousands of dollars", with no statistics ([ITIC](https://www.itic-insure.com/our-publications/intermediary/demurrage-documentation-dont-miss-the-boat-2826/)).
+  - 2026-09-28, not found: no independent figure on how often time bars are missed.
 
 ### C3
 
@@ -322,6 +326,9 @@ Marcura and similar firms already sell demurrage management as an outsourced ser
 - **Level:** E
 - **Status:** untested
 - **How to test:** Check which Greek companies use Marcura, and at what price.
+- **Evidence:**
+  - 2026-09-28, company site and trade press (D and C): Marcura Claims (formerly ClaimsHub) is sold as self-serve software, with escalation to specialists, or as a fully managed service. Marcura claims 950+ companies and bought HubSE (2025), Shipdem (2026) and Fairway Maritime's assets (2026) ([marcura.com](https://marcura.com/demurrage-software), [Smart Maritime](https://smartmaritimenetwork.com/2026/02/18/marcura-acquires-shipdem-to-expand-chemical-tanker-claims-capabilities/)). No Greek customer and no price was found.
+  - 2026-09-28, company site (D): Harbor Lab, based in Athens, bought the DEMeXchange demurrage product in 2023 ([harborlab.com](https://www.harborlab.com/harbor-lab-acquires-sofexchange-demexchange-2/)).
 
 ### C6
 

@@ -2,11 +2,11 @@
 
 Status: draft | Last updated: 2026-09-28 | Overview item: 3 in `docs/overview.md`
 
-This brief is built from `workflow.md` in this folder, `reference/charter-chain.md` and `docs/hypotheses.md`. No new research was done for it. The scorecard scores one idea: laytime and demurrage calculation plus claims tracking, which `workflow.md` ranks first. It is one row of the mismatch table in `charter-chain.md`, not the whole chartering workflow.
+This brief is built from `workflow.md` in this folder, `reference/charter-chain.md` and `docs/hypotheses.md`. The competitors were checked on the web on 2026-09-28; the rest has no new research. The scorecard scores one idea: laytime and demurrage calculation plus claims tracking, which `workflow.md` ranks first. It is one row of the mismatch table in `charter-chain.md`, not the whole chartering workflow.
 
 ## Summary
 
-When a ship carries cargo on a voyage charter, the contract allows a set time to load and discharge. If the port call takes longer, the charterer pays demurrage; if it is shorter, the owner pays despatch. The calculation is done by hand from port logs, and a claim is lost if it is filed late. The buyer is whoever carries the cargo: often an operator or pool, but also Greek owners that fix their own ships on voyage charters, mostly tanker and gas owners that trade spot. Veson IMOS and Marcura already sell this, but the notes list them from memory, so the competition has not been checked. The item is worth a proper competitor search and interviews with Greek operations staff before any building.
+When a ship carries cargo on a voyage charter, the contract allows a set time to load and discharge. If the port call takes longer, the charterer pays demurrage; if it is shorter, the owner pays despatch. The calculation is done by hand from port logs, and a claim is lost if it is filed late. The buyer is whoever carries the cargo: often an operator or pool, but also Greek owners that fix their own ships on voyage charters, mostly tanker and gas owners that trade spot. The competition is stronger than the notes assumed. Marcura sells a claims platform with time-bar tracking to 950+ companies and is buying smaller demurrage firms. Cheap laytime calculators publish prices from about $39 a month. Harbor Lab in Athens owns a demurrage product. No vendor names a Greek customer for laytime or claims, and none says it targets small owners. The item is worth interviews with Greek operations staff, but a new tool would need a clear reason to beat Marcura.
 
 ## The problem
 
@@ -32,28 +32,42 @@ An operator has a wider version of the problem. It holds a time charter from the
 ## Who pays
 
 - **Sign-off:** unknown. Probably the head of operations or the owner (E).
-- **Spend today:** staff time; an outsourced demurrage service such as Marcura's ([C5](../../hypotheses.md#c5), E); FD&D cover for disputes; or a commercial platform such as Veson IMOS.
-- **Willingness to pay:** unknown. The value is direct: each recovered claim or avoided time bar is cash. But nobody has yet said how much they lose ([C2](../../hypotheses.md#c2), E).
+- **Spend today:** staff time; Marcura Claims as software or as a managed service ([C5](../../hypotheses.md#c5), D); FD&D cover for disputes; or a commercial platform such as Veson IMOS.
+- **Willingness to pay:** unknown. The value is direct: each recovered claim or avoided time bar is cash. Vendors say the sums are large: Marcura puts dry bulk demurrage at $8–10 billion a year, and the insurer ITIC says single claims "routinely run into tens, and sometimes hundreds, of thousands of dollars" ([C2](../../hypotheses.md#c2), C and D). No Greek company has said how much it loses.
 
 ## What they use today
 
 - Small and mid-size operators, brokers and trading houses use Outlook and Excel ([C1](../../hypotheses.md#c1), E).
 - Larger operators use Veson IMOS, which covers laytime and claims inside a full commercial platform (`reference/greek-software-vendors.md`, D).
-- Some outsource demurrage to a specialist service ([C5](../../hypotheses.md#c5), E).
-- Greek ERP users may use the commercial module of Danaos (D).
+- Some outsource demurrage to a specialist service such as Marcura ([C5](../../hypotheses.md#c5), D).
+- Greek ERP users may use the laytime module of Danaos's commercial suite (D).
+- No vendor names a Greek customer for laytime or claims. Bluepool, an Athens pool, uses Veson IMOS, but the announcement does not say which modules (D).
 
 ## Competitors
 
-Every row except Veson IMOS and Danaos comes from `workflow.md`, which says its list is from memory. None has been checked. That makes this the weakest section of the brief.
+Checked on the web on 2026-09-28. Most facts come from vendor pages (D). The list in `workflow.md` was from memory and had several errors; the corrections are below the table.
 
 | Vendor | What it does here | Greek presence or customers | Pricing | Source and level |
 | --- | --- | --- | --- | --- |
-| Veson IMOS | Full commercial platform: estimates, operations, laytime, claims | Used by larger operators; no Greek customer named in the notes | Quote only | [Viewpoint Analysis](https://www.viewpointanalysis.com/post/maritime-software-options-2026), C |
-| Marcura (MarDem and others) | Demurrage management, often as an outsourced service | Not checked | Not checked | `workflow.md`, E |
-| Dataloy, Shipnet, Softmar | Operations and ERP systems with commercial modules | Not checked | Not checked | `workflow.md`, E |
-| Danaos | ERP with commercial and accounting modules | Piraeus, founded 1986 | Not published | [danaos.gr](https://danaos.gr/), D |
-| Shipfix, Sea, Voyager Portal | Fixture data, email parsing, voyage collaboration | Not checked | Not checked | `workflow.md`, E |
-| Signal Ocean | Market data and chartering tools; bought AXSMarine in January 2026 | Athens | Not published | `reference/greek-software-vendors.md`, C |
+| Marcura Claims (formerly ClaimsHub) | Laytime and demurrage claims platform with time-bar tracking. Sold as self-serve software, with escalation to specialists, or as a managed service. Claims 950+ companies and 20,000+ claims a year. Bought HubSE (February 2025), Shipdem (February 2026) and Fairway Maritime's assets (July 2026). | Athens office (weak source). No Greek customer named. | Not published | [marcura.com](https://marcura.com/demurrage-software), D; [Smart Maritime, Shipdem](https://smartmaritimenetwork.com/2026/02/18/marcura-acquires-shipdem-to-expand-chemical-tanker-claims-capabilities/), C |
+| Veson IMOS (Claims module) | Laytime calculator, claims list and time-bar tasks inside the IMOS commercial platform. AI reads emails and SOFs. Not shown as sold on its own. | Office listed in Piraeus. Bluepool (Athens) adopted IMOS in 2021; modules not named. | Not published | [veson.com](https://veson.com/products/imos/claims/), D; [Bluepool release](https://veson.com/news/bluepool-transforms-risk-management-strategy-with-the-veson-imos-platform/), D |
+| Harbor Lab | Port-cost platform. Bought DEMeXchange (demurrage calculation and claim packs) and SOFeXchange (digital SOFs) in November 2023. | Athens head office. Named customer is Indian (Great Eastern Shipping). | Not published | [harborlab.com](https://www.harborlab.com/harbor-lab-acquires-sofexchange-demexchange-2/), D; [Cyprus Shipping News](https://cyprusshippingnews.com/2023/12/13/harbor-labs-bold-leap-into-the-future-acquires-sofexchange-and-demexchange-products-from-osiris-in-a-move-to-digitise-statement-of-facts-and-demurrage-claim-processes/), C |
+| Danaos | Laytime module in its commercial suite (reversible, averaged, SHEX terms, SOF statement). No claims tracking found. | Greek, founded 1986. No Greek customer named. | Not published | [danaoscy.eu](https://www.danaoscy.eu/laytime-demurrage-calculator/), D |
+| Voyager Portal | Demurrage tool for charterers and traders: reads SOFs, calculates laytime, tracks claims. Not aimed at owners. | Not found | Not published | [voyagerportal.com](https://www.voyagerportal.com/features/demurrage/), D |
+| Dataloy VMS (Sedna) | Laytime module in a voyage management system. Sedna bought Dataloy in July 2025. | Not found; customers named are Nordic | Not found | [docs.dataloy.com](https://docs.dataloy.com/release-8.22/voyage-management-system/step-by-step-guides/operations/laytime-calculations/maintain-laytime-calculation/tiered-demurrage-despatch-rate), D |
+| Softmar (ION Commodities) | Chartering and operations software with laytime and demurrage calculation. Relaunched in September 2025. | Not found | Not published | [iongroup.com](https://iongroup.com/products/commodities/softmar/), D |
+| SHINC (GeoServe) | Both parties and brokers negotiate and agree laytime claims online. German. | Not found | Not found | [shinc.io](https://www.shinc.io/), D (search summary only) |
+| LaytimeCalculator.com | Standalone online laytime calculator | Not found | $39–$299 a month, published | [laytimecalculator.com](https://laytimecalculator.com/), D |
+| Netpas Tramper | Laytime calculator in a distance and voyage package. Korean. | Not found | About $39 a user a month, published | [netpas.net](https://www.netpas.net/order), D |
+| Enqlare, Heisenberg, BV Laytime, ClearVoyage, Base | Other calculators or voyage systems with laytime built in | Not found | Not published | Vendor sites, D (search summaries only) |
+
+Corrections to `workflow.md`:
+
+- Marcura's product is now called Marcura Claims; no current product called "MarDem" was found.
+- Shipfix is part of Veson since December 2023. It is a chartering email tool, not a laytime product.
+- Sea (Sea/ by Maritech) and Signal Ocean handle pre-fixture work and market data. Neither sells laytime or claims tools.
+- Shipnet's own site does not mention laytime; it is still unconfirmed.
+- A Greek-language search found no Greek laytime vendor other than Harbor Lab's DEMeXchange.
 
 ## Rules and standards
 
@@ -75,7 +89,7 @@ Not estimated. The method would be: Greek companies that carry cargo on voyage c
 | How much domain expertise does it need, and where would it come from? | High. Clause interpretation has many edge cases. It needs a former demurrage analyst or operations manager. |
 | How long is the sales cycle likely to be? | Unknown. It may be short, because a single recovered claim can pay for the tool. |
 | Could a first version be built in about three months? | Probably: extract SOF events with an LLM, have a person confirm them, compute laytime with a fixed rules engine, and track time bars (`workflow.md`). |
-| What would stop an incumbent from copying it? | Veson already covers laytime inside IMOS. The gap would be price and ease of use for firms too small for IMOS. |
+| What would stop an incumbent from copying it? | Nothing. Marcura already sells self-serve claims software, and calculators are cheap. A newcomer would need another edge, such as Greek-language support and presence in Piraeus. |
 
 ## Scorecard
 
@@ -83,9 +97,9 @@ Scores are for laytime and demurrage calculation plus claims tracking.
 
 | Criterion | Score | Reason | Evidence level |
 | --- | --- | --- | --- |
-| Pain is real and costly | 3 | Demurrage is cash, and missed time bars lose claims outright, but no one has said how much they lose each year. | E |
+| Pain is real and costly | 3 | Demurrage is large and claims reach hundreds of thousands of dollars, but no Greek company has said how much it loses, and no figure exists on missed time bars. | D |
 | Buyers are in Greece | 3 | Some Greek owners, mostly tanker and gas owners, trade spot on voyage charters, and Trafigura has a claims desk in Athens. Private owners are not counted. | D |
-| Competition leaves room | 3 | Veson and Marcura cover this, but the whole competitor list is from memory and unchecked. | E |
+| Competition leaves room | 2 | Marcura sells claims tracking to 950+ companies and keeps buying rivals. Calculators start at about $39 a month. Harbor Lab covers demurrage from Athens. No Greek customer is named, which is the only gap seen. | D |
 | Buildable by one developer | 3 | The rules engine is bounded, but clause edge cases need an expert and real documents. | E |
 | Reachable through contacts | unknown | Depends on the author's network. | unknown |
 
@@ -99,7 +113,7 @@ The questions at the end of `reference/charter-chain.md` cover operators in more
 
 - [ ] Have you lost a demurrage claim to a time bar or missing documents in the last year, and for how much? — operations manager at a Greek owner that trades spot.
 - [ ] Who calculates laytime today, with what tool, and how long does one calculation take? — demurrage analyst or operations staff.
-- [ ] Do you outsource demurrage, and to whom, at what price? — operations manager; Marcura's sales team.
+- [ ] Do you outsource demurrage, and to whom, at what price? Have you looked at Marcura Claims or Harbor Lab? — operations manager; Marcura's sales team; Harbor Lab's Athens office.
 - [ ] How many of your ships trade on voyage charters rather than time charters? — owners of 10–20 ship companies, or Piraeus brokers.
 - [ ] Can you share 5–10 real SOFs and recaps to test extraction on? — a design partner.
 
@@ -109,4 +123,7 @@ The questions at the end of `reference/charter-chain.md` cover operators in more
 - `reference/charter-chain.md` — E, figures marked as unverified
 - `reference/greek-software-vendors.md` — C and D
 - [Viewpoint Analysis, Maritime Software Options 2026](https://www.viewpointanalysis.com/post/maritime-software-options-2026) — C
+- Vendor pages and trade press linked in the Competitors table, checked 2026-09-28 — C and D
+- [Marcura, demurrage spreadsheets vs software](https://marcura.com/resources/blog/demurrage-spreadsheets-vs-software) — D
+- [ITIC, demurrage documentation](https://www.itic-insure.com/our-publications/intermediary/demurrage-documentation-dont-miss-the-boat-2826/) — C
 - `hypotheses.md`, evidence under X5, E5 and "Tensions between hypotheses", including FY2025 SEC filings — B to D

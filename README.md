@@ -19,9 +19,9 @@ The notes come from earlier AI sessions and are not verified. Treat every fact a
 
 | Item | Topic | Folder and files | Brief |
 | --- | --- | --- | --- |
-| 1 | Emissions compliance | `docs/topics/01-emissions-compliance/`: `regulations.md` (EU ETS, FuelEU, CII, IMO Net-Zero Framework, ledger sketch), `market-assessment.md` (competitors, where a newcomer might enter), `greek-terminology.md` | missing |
+| 1 | Emissions compliance | `docs/topics/01-emissions-compliance/`: `brief.md` (scores the charterer-side invoice audit), `regulations.md` (EU ETS, FuelEU, CII, IMO Net-Zero Framework, ledger sketch), `market-assessment.md` (competitors, where a newcomer might enter), `greek-terminology.md` | draft |
 | 2 | Vessel performance and noon reports | `docs/topics/02-vessel-performance/`: `brief.md` (performance claims, competitors, scorecard) | draft |
-| 3 | Chartering workflow | `docs/topics/03-chartering-workflow/`: `workflow.md` (estimate → fixture → laytime → claims, idea for a laytime tool) | missing |
+| 3 | Chartering workflow | `docs/topics/03-chartering-workflow/`: `brief.md` (scores laytime and claims tracking), `workflow.md` (estimate → fixture → laytime → claims, idea for a laytime tool) | draft |
 | 4 | Port costs | not started | |
 | 5 | Crew management | not started | |
 | 6 | Procurement and technical management | not started | |

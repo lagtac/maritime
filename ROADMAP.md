@@ -30,6 +30,14 @@ Fixes and checks on the existing notes.
 | F2 | **Check the item 3 competitors** — checked on the web; the brief now has the verified list, and several vendors in `workflow.md` were wrong. | ✅ | [brief](docs/topics/03-chartering-workflow/brief.md) |
 | F3 | **Settle Danaos's size** — `greek-software-vendors.md` says about 700 vessels; a search summary in item 2's brief says 650+ clients and 6,500+ vessels. | 📋 | [greek-software-vendors.md](docs/reference/greek-software-vendors.md) |
 
+## Ideas for later
+
+Ideas about the research process itself. Each links to a note with the details.
+
+| # | Idea | Status | Note |
+| --- | --- | --- | --- |
+| I1 | **Automate parts of the workflow** — interactive Claude Code skills for the interview list, adding evidence and opening an item; the research and scoring stay manual. | 💭 | [note](docs/plans/2026-09-28-workflow-automation-idea.md) |
+
 ## Decisions
 
 A decision that changes the direction of the research, such as dropping an idea or choosing a niche. Add one line each: the date, what was decided, why, and a link to the evidence.

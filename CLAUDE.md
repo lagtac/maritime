@@ -53,13 +53,14 @@ When starting an item:
 - Create `topics/NN-<slug>/` with lowercase, hyphenated file names.
 - Write `brief.md` from `templates/topic-brief.md`. Keep all its headings, including the scorecard, so items can be compared.
 - Add the item's claims to `hypotheses.md` with a new ID letter. Each claim is a section with `- **Field:** value` bullets. When research confirms or contradicts a claim, update its status and add the evidence as its usage notes say. Never delete a section.
-- Add the item's row to the progress table in `README.md`.
+- Update the item's row in `ROADMAP.md`.
 
 ## Where the current state lives
 
 This file holds rules only. Do not copy research state into it, because the copy goes out of date. Read these files instead:
 
-- **Progress, known problems in the notes, and modelling ideas:** `README.md`.
+- **Progress, follow-up tasks (including known problems in the notes) and decisions:** `ROADMAP.md`. When you find a problem in the notes, add it there as a follow-up task.
+- **Modelling ideas:** `README.md`.
 - **The niche ideas and whether evidence supports them:** `docs/hypotheses.md`. None are decided. They are starting points to test, question or drop.
 
 Regulatory dates and vendor positions change often. Check them before relying on them.

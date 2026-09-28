@@ -17,23 +17,9 @@ The notes come from earlier AI sessions and are not verified. Treat every fact a
 
 ## Progress
 
-| Item | Topic | Folder and files | Brief |
-| --- | --- | --- | --- |
-| 1 | Emissions compliance | `docs/topics/01-emissions-compliance/`: `brief.md` (scores the charterer-side invoice audit), `regulations.md` (EU ETS, FuelEU, CII, IMO Net-Zero Framework, ledger sketch), `market-assessment.md` (competitors, where a newcomer might enter), `greek-terminology.md` | draft |
-| 2 | Vessel performance and noon reports | `docs/topics/02-vessel-performance/`: `brief.md` (performance claims, competitors, scorecard) | draft |
-| 3 | Chartering workflow | `docs/topics/03-chartering-workflow/`: `brief.md` (scores laytime and claims tracking), `workflow.md` (estimate → fixture → laytime → claims, idea for a laytime tool) | draft |
-| 4 | Port costs | not started | |
-| 5 | Crew management | not started | |
-| 6 | Procurement and technical management | not started | |
-| 7 | Cybersecurity and connectivity | not started | |
+`ROADMAP.md` holds the state of the research: which items are started, which follow-up tasks are open, and the decisions made so far. The niche ideas and their status are in `docs/hypotheses.md`. This file repeats neither, so it cannot go out of date.
 
-The niche ideas and their status are in `docs/hypotheses.md`. This file does not repeat them, so they cannot go out of date here.
-
-### Known problems in the notes
-
-- Danaos's size is not settled. `docs/reference/greek-software-vendors.md` says about 700 vessels. A search summary cited in item 2's `brief.md` says 650+ clients and 6,500+ vessels.
-
-### Modelling ideas
+## Modelling ideas
 
 These are ideas for a product, if one gets built. They are not decided.
 
@@ -53,7 +39,7 @@ Study one pain area at a time. Write it up in the same format as the others. Mov
 4. **Log the key claims.** A claim that could change which niche you pick goes into `docs/hypotheses.md`. It gets an ID that starts with the item's letter. The brief links to the ID and does not copy its status.
 5. **Score the item.** Fill the scorecard: five criteria, each scored 1 to 5. Each score names the weakest evidence level behind it, which shows how much to trust it.
 6. **Write the summary last.** Then list the open questions, with the role of the person who could answer each one.
-7. **Update the shared files.** Add new terms to `docs/reference/glossary.md`. Update the progress table above, and the known problems when one is found or settled.
+7. **Update the shared files.** Add new terms to `docs/reference/glossary.md`. Update the item's row in `ROADMAP.md`. Add a follow-up task there when you find a problem in the notes.
 
 ### Testing a claim
 
@@ -96,4 +82,4 @@ The workflow above does not yet say how to reach a decision. These are open:
 
 - Lint the Markdown with `markdownlint-cli2 "**/*.md"`. The config is `.markdownlint-cli2.jsonc`.
 - Commit directly on `main` as `docs: <sentence>`, following [Conventional Commits](https://www.conventionalcommits.org/).
-- `CLAUDE.md` holds the rules for Claude Code sessions. It holds no research state: progress lives here, and claim statuses live in `docs/hypotheses.md`. When a workflow rule changes, change it in both files.
+- `CLAUDE.md` holds the rules for Claude Code sessions. It holds no research state: progress lives in `ROADMAP.md`, and claim statuses live in `docs/hypotheses.md`. When a workflow rule changes, change it in both files.

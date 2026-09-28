@@ -46,41 +46,20 @@ Reference files:
 
 ## Research workflow
 
-The author works through the numbered list "What Greek tramp owners actually need" in `docs/overview.md`, one item at a time.
-
-| Item | Topic | Folder |
-| --- | --- | --- |
-| 1 | Emissions compliance | `topics/01-emissions-compliance/`: `regulations.md` (EU ETS, FuelEU, CII, IMO Net-Zero Framework, ledger sketch), `market-assessment.md` (competitors, where a newcomer might enter), `greek-terminology.md` |
-| 2 | Vessel performance and noon reports | `topics/02-vessel-performance/`: `brief.md` (performance claims, competitors, scorecard) |
-| 3 | Chartering workflow | `topics/03-chartering-workflow/`: `workflow.md` (estimate → fixture → laytime → claims, idea for a laytime tool) |
-| 4 | Port costs | not started |
-| 5 | Crew management | not started |
-| 6 | Procurement and technical management | not started |
-| 7 | Cybersecurity and connectivity | not started |
+The author works through the numbered list "What Greek tramp owners actually need" in `docs/overview.md`, one item at a time. `README.md` describes the workflow in full.
 
 When starting an item:
 
 - Create `topics/NN-<slug>/` with lowercase, hyphenated file names.
 - Write `brief.md` from `templates/topic-brief.md`. Keep all its headings, including the scorecard, so items can be compared.
 - Add the item's claims to `hypotheses.md` with a new ID letter. Each claim is a section with `- **Field:** value` bullets. When research confirms or contradicts a claim, update its status and add the evidence as its usage notes say. Never delete a section.
+- Add the item's row to the progress table in `README.md`.
 
-Items 1 and 3 do not have a `brief.md` yet.
+## Where the current state lives
 
-## Working hypotheses in the notes
+This file holds rules only. Do not copy research state into it, because the copy goes out of date. Read these files instead:
 
-None of these are decided. They are starting points to test, question or drop. `hypotheses.md` tracks them one by one.
+- **Progress, known problems in the notes, and modelling ideas:** `README.md`.
+- **The niche ideas and whether evidence supports them:** `docs/hypotheses.md`. None are decided. They are starting points to test, question or drop.
 
-- **Emissions software:** Tools that let owners compute carbon allowances and invoice charterers look crowded (OceanScore, DNV, Veson and others). The notes suggest a tool for charterers that checks the invoices they receive (`market-assessment.md`).
-- **Chartering software:** The notes suggest laytime and demurrage calculation plus claims tracking (`workflow.md`).
-- **Performance software:** Monitoring is crowded. The notes suggest owner-side defence of performance claims (`brief.md` in item 2).
-- **Selling in Greece:** Greek shipping is family-run and buys through personal relationships. The notes suggest finding one design partner, a 10–20 ship owner who shares real data.
-- **A tension:** the emissions and chartering ideas sell mostly to charterers and operators, but most Greek companies are ship owners (`X5`, supported), and few charterers were found in Piraeus (`E5`, weakened). The laytime tool can also sell to Greek owners that fix their own ships on voyage charters. Where operators are based is still open (`X7`). The performance idea sells to owners, so this tension does not apply to it.
-- **Modelling ideas**, if a product gets built:
-  - An LLM extracts data from documents, a person confirms it, and a fixed rules engine does the calculations (`workflow.md`).
-  - Each company is stored once, and its role (owner, charterer, manager) is stored on the contract or the vessel, not as a company type (`players-and-roles.md`).
-  - The emissions ledger adds facts and never edits them, and versions its emission factors and rules by year (`regulations.md`).
-
-## Known problems in the notes
-
-- Regulatory dates and vendor positions change often. Check them before relying on them.
-- Danaos's size is not settled. `greek-software-vendors.md` says about 700 vessels; a search summary cited in item 2's `brief.md` says 650+ clients and 6,500+ vessels.
+Regulatory dates and vendor positions change often. Check them before relying on them.

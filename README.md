@@ -4,6 +4,18 @@ Research notes to find a software niche that can be sold to Greek maritime compa
 
 The notes come from earlier AI sessions and are not verified. Treat every fact as a claim to check until a better source confirms it.
 
+## Start here
+
+Read these in order. A first pass takes one to two hours.
+
+1. **This file.** Read it to the end, above all the evidence levels.
+2. **`docs/overview.md`.** Why Greek shipping is tramp shipping, and the seven pain areas that set the order of the research.
+3. **`ROADMAP.md`.** Which items are started, which follow-up tasks are open, and the decisions made so far.
+4. **One topic brief**, such as `docs/topics/03-chartering-workflow/brief.md`. All briefs follow the same template, so after one the others are quick to compare.
+5. **`docs/hypotheses.md`.** Read "How to use this log", the `X` claims that apply to every item, and the claims for the brief you just read.
+
+Use `docs/reference/` as needed, not in advance. Look up terms in `glossary.md`. Read `charter-chain.md` and `players-and-roles.md` when the parties in a charter blur together.
+
 ## Where things are
 
 | Path | Holds |
